@@ -3,19 +3,27 @@ sequenceDiagram
     participant JS_Ecosystem
     participant Tools
     participant Community
+    participant Automation
 
-    Developer->>JS_Ecosystem: Feels overwhelmed by constant changes
-    Note right of Developer: JavaScript fatigue sets in
+    Developer->>JS_Ecosystem: Feels overwhelmed by fast changes
+    Note right of Developer: Experiencing JavaScript fatigue
 
-    Developer->>Developer: Focus on fundamentals
-    Developer->>Tools: Choose a limited set of tools
-    Tools-->>Developer: Provide stability and support
+    Developer->>Developer: Focus on core JavaScript concepts
+    Developer->>Tools: Research and select stable tools
+    Tools-->>Developer: Provide well-documented, reliable features
 
-    Developer->>Developer: Learn to say no to shiny new tech
-    Developer->>Community: Follow curated blogs & podcasts
-    Community-->>Developer: Share filtered, quality info
+    Developer->>Developer: Decide what to adopt or reject
+    Developer-->>JS_Ecosystem: Say no to trendy, less mature tech
 
-    Developer->>Tools: Automate setup & workflow
-    Developer->>Developer: Allocate balanced time for learning
+    Developer->>Community: Follow trusted newsletters and podcasts
+    Community-->>Developer: Deliver curated, high-quality info
 
-    Note right of Developer: Gradually reduces fatigue and improves productivity
+    Developer->>Automation: Implement task runners and build scripts
+    Automation-->>Developer: Simplify repetitive setup tasks
+
+    Developer->>Developer: Schedule regular but limited learning sessions
+    Developer->>Developer: Take breaks to avoid burnout
+
+    Note right of Developer: These steps build confidence and reduce stress
+
+    Developer->>JS_Ecosystem: Feels more in control and productive
