@@ -1,16 +1,21 @@
-# Managing JavaScript Fatigue
+sequenceDiagram
+    participant Developer
+    participant JS_Ecosystem
+    participant Tools
+    participant Community
 
-JavaScript ecosystem evolves fast, which can be overwhelming. This flowchart outlines some practical steps to manage fatigue and stay productive:
+    Developer->>JS_Ecosystem: Feels overwhelmed by constant changes
+    Note right of Developer: JavaScript fatigue sets in
 
-```mermaid
-flowchart TD
-    Start([Start: Feeling overwhelmed by JS ecosystem])
+    Developer->>Developer: Focus on fundamentals
+    Developer->>Tools: Choose a limited set of tools
+    Tools-->>Developer: Provide stability and support
 
-    Start --> FocusFundamentals[Focus on Fundamentals]
-    FocusFundamentals --> LimitTools[Limit the number of tools you use]
-    LimitTools --> LearnNo[Learn to Say No]
-    LearnNo --> UseStable[Use Stable Ecosystems]
-    UseStable --> AutomateDelegate[Automate & Delegate where possible]
-    AutomateDelegate --> BalancedLearning[Continuous Learning but Balanced]
-    BalancedLearning --> StayConnected[Stay Connected to Community Wisely]
-    StayConnected --> End([Manage JavaScript Fatigue Successfully])
+    Developer->>Developer: Learn to say no to shiny new tech
+    Developer->>Community: Follow curated blogs & podcasts
+    Community-->>Developer: Share filtered, quality info
+
+    Developer->>Tools: Automate setup & workflow
+    Developer->>Developer: Allocate balanced time for learning
+
+    Note right of Developer: Gradually reduces fatigue and improves productivity
